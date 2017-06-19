@@ -16,9 +16,16 @@ namespace CSharpPractices
             Console.ReadLine();
             //User Input Example
             TextInput input = new NumericInput();
-            input.Add('1');
-            input.Add('a');
-            input.Add('0');
+
+            Console.WriteLine("Enter a character : ");
+            input.Add(Console.ReadKey().KeyChar);
+            Console.WriteLine("");
+            Console.WriteLine("Enter a character : ");
+            input.Add(Console.ReadKey().KeyChar);
+            Console.WriteLine("");
+            Console.WriteLine("Enter a character : ");
+            input.Add(Console.ReadKey().KeyChar);
+            Console.WriteLine("");
             Console.WriteLine(input.GetValue());
             Console.ReadLine();
         }

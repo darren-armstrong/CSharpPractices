@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CSharpPractices.UserInput;
 
 namespace CSharpPractices
@@ -27,6 +24,11 @@ namespace CSharpPractices
             input.Add(Console.ReadKey().KeyChar);
             Console.WriteLine("");
             Console.WriteLine(input.GetValue());
+            Console.ReadLine();
+
+            //TwoSum Example
+            Tuple<int?, int?> indices = TwoSum.FindTwoSum(new List<int>() { 1, 3, 5, 7, 9 }, 12);
+            Console.WriteLine(indices.Item1 + " " + indices.Item2);
             Console.ReadLine();
         }
     }

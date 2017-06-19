@@ -58,7 +58,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\PalindromeTest.cs" />
+    <Compile Include="Tests\TwoSumTests.cs" />
     <Compile Include="Tests\UserInputTest.cs" />
+    <Compile Include="TwoSum.cs" />
     <Compile Include="UserInput\NumericInput.cs" />
     <Compile Include="UserInput\TextInput.cs" />
   </ItemGroup>

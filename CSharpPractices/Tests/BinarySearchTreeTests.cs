@@ -48,7 +48,7 @@ namespace CSharpPractices.Tests
             Node test = new Node(1, null, null);
             Node test2 = new Node(3, null, null);
             Node test3 = new Node(2, test, test2);
-            Assert.Equal(false, BinarySearchTree.BinarySearchTree.Contains(test3, 3));
+            Assert.Equal(true, BinarySearchTree.BinarySearchTree.Contains(test3, 3));
         }
 
     }

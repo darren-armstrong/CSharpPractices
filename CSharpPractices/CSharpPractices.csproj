@@ -54,8 +54,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreAnagrams.cs" />
     <Compile Include="BinarySearchTree\BinarySearchTree.cs" />
     <Compile Include="BinarySearchTree\Node.cs" />
+    <Compile Include="Folders.cs" />
+    <Compile Include="MostCommon.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
